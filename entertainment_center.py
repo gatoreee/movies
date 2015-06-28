@@ -15,8 +15,7 @@ royal_tenenbaums = media.Movie("The Royal Tenenbaums",
 
 mama_tambien = media.Movie("Y Tu Mama También", 
 	"In Mexico, two teenage boys and an attractive older woman embark on a road trip and learn a thing or two about life, \
-	friendship, sex, and each other", "http://upload.wikimedia.org/\
-	wikipedia/en/archive/2/2e/20141208022001!Original_poster_from_Y_Tu_Mama_Tambien_Mexican_marketing_campaign.jpg", 
+	friendship, sex, and each other", "https://upload.wikimedia.org/wikipedia/en/6/63/Y_tu_mamá_también_poster.png", 
 	"https://youtu.be/3Qg6n7V3kO4")
 
 sideways = media.Movie("Sideways", "Two men reaching middle age with not much to show but disappointment, \
@@ -27,5 +26,5 @@ wolf_of_wallstreet = media.Movie("The Wolf Of Wall Street", "Based on the true s
 	to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government", 
 	"http://upload.wikimedia.org/wikipedia/en/1/1f/WallStreet2013poster.jpg", "https://youtu.be/iszwuX1AK6A")
 
-movies = [goodfellas, sideways, royal_tenenbaums, mama_tambien, shawshank_redemption, wolf_of_wallstreet]
+movies = [goodfellas, sideways, royal_tenenbaums, shawshank_redemption, mama_tambien, wolf_of_wallstreet]
 fresh_tomatoes.open_movies_page(movies)
