@@ -121,7 +121,7 @@ main_page_content = '''
 movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="220" height="342">
-    <h2>{movie_title}</h2>
+    <h3>{movie_title}</h3>
     <h5><i>{movie_storyline}</i></h5>
     <h5><b>Runtime:</b> {movie_runtime}</h5>   
     <h5><b>Metascore:</b> {movie_metascore}</h5>

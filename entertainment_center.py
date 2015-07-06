@@ -33,6 +33,5 @@ wolf_of_wallstreet = media.Movie("The Wolf Of Wall Street", "Based on the true s
 	"http://upload.wikimedia.org/wikipedia/en/1/1f/WallStreet2013poster.jpg",
 	"https://youtu.be/iszwuX1AK6A")
 
-movies = [goodfellas, sideways, royal_tenenbaums, shawshank_redemption, mama_tambien, \
-wolf_of_wallstreet]
+movies = [goodfellas, wolf_of_wallstreet, sideways, royal_tenenbaums, shawshank_redemption, mama_tambien]
 fresh_tomatoes.open_movies_page(movies)
