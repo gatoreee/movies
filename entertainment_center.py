@@ -1,4 +1,8 @@
-﻿"""This module containts all the movie data"""
+﻿"""This module containts all movie data.
+
+All data is hardcoded in each move entry. It then creates a list of all the movies and calls
+the open movies method to display them.
+"""
 import fresh_tomatoes
 import media
 

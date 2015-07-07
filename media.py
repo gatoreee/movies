@@ -1,10 +1,13 @@
-"""This module defines Movie class"""
-import webbrowser
+"""This module defines Movie class."""
 import urllib
 import json
 
 class Movie():
-    """This class defines a template for movies and information about them"""
+    """This class defines a template for movies and information about them.
+
+    The initialization method takes in title, storyline, poster and trailer URL
+    and retrives other data by finding the title in omdbapi
+    """
     def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
         self.title = movie_title
         self.storyline = movie_storyline
@@ -15,8 +18,5 @@ class Movie():
         parsed_output = json.loads(output)
         self.runtime = parsed_output['Runtime']
         self.metascore = parsed_output['Metascore']
-
-    def show_trailer(self):
-        webbrowser.open(self.trailer_youtube_url)
 
 
