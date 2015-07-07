@@ -1,4 +1,4 @@
-﻿"""entertainmet_center.py has all the movie data"""
+﻿"""This module containts all the movie data"""
 import fresh_tomatoes
 import media
 
@@ -13,8 +13,8 @@ shawshank_redemption = media.Movie("The Shawshank Redemption", "Two imprisoned m
 	ShawshankRedemptionMoviePoster.jpg", "https://youtu.be/6hB3S9bIaco")
 
 royal_tenenbaums = media.Movie("The Royal Tenenbaums", "An estranged family of former child \
-	prodigies reunites when their father announces he is terminally ill",
-	"http://upload.wikimedia.org/wikipedia/en/3/3b/The_Tenenbaums.jpg",
+	prodigies reunites when their father announces he is terminally ill",\
+	"http://upload.wikimedia.org/wikipedia/en/3/3b/The_Tenenbaums.jpg",\
 	"https://youtu.be/HaMfV72q40U")
 
 mama_tambien = media.Movie("Y Tu Mama También", "In Mexico, two teenage boys and an attractive \
@@ -29,9 +29,10 @@ sideways = media.Movie("Sideways", "Two men reaching middle age with not much to
 
 wolf_of_wallstreet = media.Movie("The Wolf Of Wall Street", "Based on the true story of \
 	Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his \
-	fall involving crime, corruption and the federal government",
-	"http://upload.wikimedia.org/wikipedia/en/1/1f/WallStreet2013poster.jpg",
+	fall involving crime, corruption and the federal government",\
+	"http://upload.wikimedia.org/wikipedia/en/1/1f/WallStreet2013poster.jpg",\
 	"https://youtu.be/iszwuX1AK6A")
 
-movies = [goodfellas, wolf_of_wallstreet, sideways, royal_tenenbaums, shawshank_redemption, mama_tambien]
+movies = [goodfellas, wolf_of_wallstreet, sideways, royal_tenenbaums, shawshank_redemption,\
+ mama_tambien]
 fresh_tomatoes.open_movies_page(movies)

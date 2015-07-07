@@ -1,10 +1,10 @@
-"""media.py describes class Movie"""
+"""This module defines Movie class"""
 import webbrowser
 import urllib
 import json
 
 class Movie():
-    """Movie() defines a template for movies and information about them"""
+    """This class defines a template for movies and information about them"""
     def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
         self.title = movie_title
         self.storyline = movie_storyline
