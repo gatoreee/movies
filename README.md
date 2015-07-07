@@ -9,7 +9,7 @@ There are no real dependencies for this project except having Python 2.x install
 
 How to Run Project
 ------------------
-The project repository can be found at https://github.com/gatoreee/movies. Save all files to a local folder of your choice. Open a command prompt and go the folder where the files are saved. Run command 'python entertainment_center.py'. This should launch the page in your default web browser. Alternative, you can see the page at https://gatoreee.github.io/movies/fresh_tomatoes.html.
+The project repository can be found at https://github.com/gatoreee/movies. Save all files to a local folder of your choice. Open a command prompt and go the folder where the files are saved. Run command 'python entertainment_center.py'. This should launch the page in your default web browser. Alternatively, you can see the page at https://gatoreee.github.io/movies/fresh_tomatoes.html.
 
 
 Extra Credit Description
