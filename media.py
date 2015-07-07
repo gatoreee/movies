@@ -6,7 +6,7 @@ class Movie():
     """This class defines a template for movies and information about them.
 
     The initialization method takes in title, storyline, poster and trailer URL
-    and retrives other data by finding the title in omdbapi
+    and retrives other data by finding the title in omdbapi using API calls
     """
     def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
         self.title = movie_title
