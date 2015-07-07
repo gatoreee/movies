@@ -1,4 +1,8 @@
-"""This module defines the page structure and dynamic parts of our solution"""
+"""This module defines the page structure and dynamic parts of our solution.
+
+It creates the HTML for our page and defines the functions required to input 
+dynamic content into the page.
+"""
 import webbrowser
 import os
 import re
